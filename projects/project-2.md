@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/5.jpg
-title: Vacay
+title: Strategy and leardership in Game
 permalink: projects/vacay
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-04
