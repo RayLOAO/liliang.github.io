@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/2.png
 title: Tic Tac Toe
 permalink: projects/ICS 111
 # All dates must be YYYY-MM-DD format!
