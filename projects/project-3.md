@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/6.jpg
 title: My first step in ICS
-permalink: projects/cotton
+permalink: projects/start
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-04
 labels:
