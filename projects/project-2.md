@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/5.jpg
 title: Strategy and leardership in Game
-permalink: projects/vacay
+permalink: projects/game
 # All dates must be YYYY-MM-DD format!
 date: 2020-09-04
 labels:
