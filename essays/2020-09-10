@@ -1,0 +1,38 @@
+---
+layout: essay
+type: essay
+title: Smart, or Stupic Question?
+
+# All dates must be YYYY-MM-DD format!
+date: 2020-09-10
+labels:
+  - Software Engineering
+  - Learning
+  - Stack Overflow
+  - Question
+---
+
+<img class="ui image" src="{{ site.baseurl }}/images/Free Courses to learn JavaScript.jpg">
+
+Honestly. There is no such thing as a stupic question and it is related to your way to ask the question. I had asked a lot of questions in a stupic way. Many teachers still would like to help me with that, because we are students. However, there is no one that is responsible to answer your question on the Internet. But, you can still get good answers from those experienced users,  the answer you will get depending on your way to ask them. Programmers will face all kinds of different problems and questions on coding. Asking questions is a kind of ability and how to ask a question is a kind of skills. 
+
+  ## Asking question in a good way
+Before you ask a question, Google it first. Google is an immediate search engine. Even though it doesn’t have the specific answer, it can still provide the most related link to you. Google is always a good friend when you have a problem. Let’s see an example of a good question.
+
+I am using the Scanner methods nextInt() and nextLine() for reading input.
+It looks like this:
+```
+System.out.println("Enter numerical value"); 
+int option; 
+option = input.nextInt(); // Read numerical value from input System.out.println("Enter 1st string"); 
+String string1 = input.nextLine(); // Read 1st string (this is skipped) System.out.println("Enter 2nd string"); 
+String string2 = input.nextLine(); // Read 2nd string (this appears right after reading numerical value)
+```
+The problem is that after entering the numerical value, the first input.nextLine() is skipped and the second input.nextLine() is executed, so that my output looks like this:
+```
+Enter numerical value 
+3 // This is my input 
+Enter 1st string // The program is supposed to stop here and wait for my input, but is skipped 
+Enter 2nd string // ...and this line is executed and waits for my input
+```
+I tested my application and it looks like the problem lies in using input.nextInt(). If I delete it, then both string1 = input.nextLine() and string2 = input.nextLine() are executed as I want them to be.
